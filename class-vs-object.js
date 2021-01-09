@@ -18,7 +18,6 @@ class Person{
     speak(){ console.log(`${this.name}:hello!`); }
 } 
 
-
 const ellie = new Person('ellie',20);
 console.log(ellie.name);
 console.log(ellie.age);
