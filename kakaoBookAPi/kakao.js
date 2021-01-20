@@ -21,7 +21,7 @@ const searchForm=document.querySelector(".search_form"),
         }
         function handleSubmit(event){
             event.preventDefault();     
-            loadBookList();
+            loadBookList(); 
             searchInput.value="";
         };
 
